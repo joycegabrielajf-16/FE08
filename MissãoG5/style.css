@@ -1,0 +1,17 @@
+.pagina {
+  display: grid;
+  grid-template-areas:
+    "cab cab cab"
+    "menu main lado"   
+    "pe   pe   pe";   
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+  min-height: 100vh;
+}
+
+header { grid-area: cab;  background: #4f8cff; color: #fff; padding: 16px; }
+nav    { grid-area: menu; background: #ffb020; padding: 16px; }
+main   { grid-area: main; background: #eaf0ff; padding: 16px; }
+aside  { grid-area: lado; background: #34c759; padding: 16px; }
+footer { grid-area: pe;   background: #222; color: #fff; padding: 16px; }

@@ -1,0 +1,12 @@
+.grade {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;
+}
+
+.caixa {
+    background-color: lightblue;
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}

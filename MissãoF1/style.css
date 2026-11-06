@@ -1,0 +1,21 @@
+.linha {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  padding: 20px;
+  color: white;
+}
+
+.item:nth-child(1) {
+  background: red;
+}
+
+.item:nth-child(2) {
+  background: blue;
+}
+
+.item:nth-child(3) {
+  background: green;
+}
